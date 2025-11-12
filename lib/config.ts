@@ -7,10 +7,25 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "Welche Sportarten gibt es?",
-    prompt: "Welche Sportarten gibt es?",
+    label: "Welche Sportarten gibt es beim TSV Wald?",
+    prompt: "Welche Sportarten gibt es beim TSV Wald?",
     icon: "circle-question",
   },
+  {
+    label: "Wie kann ich Mitglied werden beim TSV Wald?",
+    prompt: "Wie kann ich Mitglied werden beim TSV Wald?",
+    icon: "circle-question",
+  },  
+  {
+    label: "Wie kann ich die Grillstelle mieten?",
+    prompt: "Wie kann ich die Grillstelle mieten?",
+    icon: "circle-question",
+  },  
+  {
+    label: "Wie kann ich das TSV Zelt ausleihen?",
+    prompt: "Wie kann ich das TSV Zelt ausleihen?",
+    icon: "circle-question",
+  },  
 ];
 
 export const PLACEHOLDER_INPUT = "Stelle eine Frage ... ";
